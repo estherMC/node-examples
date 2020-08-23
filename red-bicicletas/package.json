@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
-    "clean-css": ">=4.1.11"
+    "clean-css": "4.1.11"
   }
 }
