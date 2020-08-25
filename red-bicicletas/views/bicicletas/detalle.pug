@@ -1,0 +1,31 @@
+extends ../layout
+
+block content
+    a(href='/bicicletas') Volver
+
+    br
+    br
+    br
+
+    h1 Detalle Bicicleta
+
+    br
+    br
+
+    label(for='id') ID:
+    input#id(type='text' name='id' value=bici.id disabled=true)
+    br
+    label(for='color') Color:
+    input#color(type='text' name='color' value=bici.color disabled=true)
+    br
+    label(for='modelo') Modelo:
+    input#modelo(type='text' name='modelo' value=bici.modelo disabled=true)
+    br
+    label(for='lat') Latitud:
+    input#modelo(type='text' name='lat' value=bici.ubicacion[0] disabled=true) 
+    br
+    label(for='lng') Longitud:
+    input#modelo(type='text' name='lng' value=bici.ubicacion[1] disabled=true)   
+    br
+    br
+
