@@ -34,10 +34,10 @@ const { bicicleta_list } = require("../controllers/bicicleta");
         }
     }
 
-    var a = new Bicicleta (1, 'azul', 'urbana', [41.1119578,1.245973]);
+/*     var a = new Bicicleta (1, 'azul', 'urbana', [41.1119578,1.245973]);
     var b = new Bicicleta (2, 'roja', 'urbana', [41.1183669,1.2451213]);
 
     Bicicleta.allBicis.push(a);
-    Bicicleta.allBicis.push(b);
+    Bicicleta.allBicis.push(b); */
 
     module.exports = Bicicleta;
