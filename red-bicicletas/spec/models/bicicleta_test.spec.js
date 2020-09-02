@@ -1,6 +1,7 @@
 var Bicicleta = require('../../models/bicicleta');
 
 beforeEach(() => { Bicicleta.allBicis = []; });
+// beforeEach(function(){console.log(‘testeando…’); });
 
 describe('Bicicleta.allBicis', () => {
     it('comienza vacia', () => {
